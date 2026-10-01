@@ -8,7 +8,7 @@ body {
 
     font-family: Arial, sans-serif;
 
-    background-color: #b84242;
+    background-color: #edf2f3;
 
     color: black;
 }
@@ -23,11 +23,11 @@ body {
     margin: auto;
     padding: 30px;
 
-    background-color: rgb(97, 214, 165);
+    background-color: rgb(152, 210, 233);
 
     border-radius: 10px;
 
-    box-shadow: 0 0 10px #e65f5f;
+    box-shadow: 0 0 10px #d9ecf3;
 }
 
 
@@ -63,7 +63,7 @@ h1 {
 /* Required Star */
 
 .form-section > label span {
-    color: rgba(80, 15, 133, 0.856);
+    color: rgba(245, 58, 11, 0.959);
 }
 
 
@@ -77,11 +77,11 @@ select {
 
     padding: 10px;
 
-    border: 1px solid #c97777;
+    border: 1px solid #4518e7;
 
     border-radius: 7px;
 
-    background-color: rgb(132, 206, 235);
+    background-color: rgb(196, 226, 238);
 
     color: black;
 
@@ -178,9 +178,9 @@ button {
 
     border-radius: 5px;
 
-    background-color: rgb(35, 189, 15);
+    background-color: rgb(18, 123, 209);
 
-    color: rgb(184, 65, 10);
+    color: rgb(17, 16, 15);
 
     font-size: 16px;
 
