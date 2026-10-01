@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Introduction Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Introduction Form</h1>
+
+        <form>
+
+            <!-- ================= NAME ================= -->
+
+            <div class="form-section">
+
+                <label>Name <span>*</span></label>
+
+                <div class="name-box">
+
+                    <select required>
+                        <option value="">Select</option>
+                        <option value="Mr">Mr.</option>
+                        <option value="Mrs">Mrs.</option>
+                        <option value="Miss">Miss</option>
+                    </select>
+
+                    <input
+                        type="text"
+                        placeholder="First Name"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="Last Name"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= GENDER ================= -->
+
+            <div class="form-section">
+
+                <label>Choose Your Gender <span>*</span></label>
+
+                <div class="option-box">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Female"
+                            required
+                        >
+                        Female
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Male"
+                        >
+                        Male
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="Others"
+                        >
+                        Others
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= ADDRESS ================= -->
+
+            <div class="form-section">
+
+                <label>Address <span>*</span></label>
+
+                <input
+                    type="text"
+                    placeholder="Write Your Permanent Address"
+                    required
+                >
+
+                <input
+                    type="text"
+                    placeholder="Write Your Recent Address"
+                    required
+                >
+
+                <div class="two-box">
+
+                    <input
+                        type="text"
+                        placeholder="Write Your State"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="Write Your City"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= PHONE NUMBER ================= -->
+
+            <div class="form-section">
+
+                <label>Phone Number <span>*</span></label>
+
+                <div class="two-box">
+
+                    <input
+                        type="tel"
+                        placeholder="Contact Number"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        required
+                    >
+
+                    <input
+                        type="tel"
+                        placeholder="WhatsApp Number"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= EMAIL ================= -->
+
+            <div class="form-section">
+
+                <label>Email <span>*</span></label>
+
+                <input
+                    type="email"
+                    placeholder="Write Your Email"
+                    required
+                >
+
+            </div>
+
+
+            <!-- ================= EDUCATION ================= -->
+
+            <div class="form-section">
+
+                <label>Education</label>
+
+                <div class="option-box">
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="education"
+                        >
+                        10th Pass
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="education"
+                        >
+                        12th Pass
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= COLLEGE ================= -->
+
+            <div class="form-section">
+
+                <label>College / Degree</label>
+
+                <div class="two-box">
+
+                    <input
+                        type="text"
+                        placeholder="College Degree"
+                    >
+
+                    <input
+                        type="text"
+                        placeholder="College Name"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= BUTTONS ================= -->
+
+            <div class="button-box">
+
+                <button type="submit">Submit</button>
+
+                <button type="button">Share</button>
+
+                <button type="button">Save</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

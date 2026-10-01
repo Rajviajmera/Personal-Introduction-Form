@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+
+    color: black;
+}
+
+
+/* Main Form */
+
+.form-container {
+    width: 750px;
+    max-width: 100%;
+
+    margin: auto;
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px #aaaaaa;
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+/* Each Section */
+
+.form-section {
+    margin-bottom: 25px;
+}
+
+
+/* Main Labels */
+
+.form-section > label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+
+/* Required Star */
+
+.form-section > label span {
+    color: red;
+}
+
+
+/* All Input Boxes */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    height: 42px;
+
+    padding: 10px;
+
+    border: 1px solid #888;
+
+    border-radius: 5px;
+
+    background-color: lightblue;
+
+    color: black;
+
+    font-size: 15px;
+}
+
+
+/* Name */
+
+.name-box {
+    display: flex;
+
+    gap: 10px;
+}
+
+.name-box select {
+    width: 120px;
+}
+
+.name-box input {
+    flex: 1;
+}
+
+
+/* Address */
+
+.form-section > input {
+    width: 100%;
+
+    margin-bottom: 10px;
+}
+
+
+/* Two Boxes */
+
+.two-box {
+    display: flex;
+
+    gap: 10px;
+}
+
+.two-box input {
+    width: 50%;
+}
+
+
+/* Radio / Checkbox */
+
+.option-box {
+    display: flex;
+
+    gap: 30px;
+}
+
+.option-box label {
+    font-weight: normal;
+}
+
+
+/* Radio Buttons */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+
+    height: auto;
+
+    margin-right: 5px;
+}
+
+
+/* Buttons */
+
+.button-box {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+
+button {
+    width: 120px;
+
+    height: 42px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: gray;
+
+    color: black;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #777777;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .name-box,
+    .two-box {
+        flex-direction: column;
+    }
+
+    .name-box select {
+        width: 100%;
+    }
+
+    .two-box input {
+        width: 100%;
+    }
+
+    .option-box {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .button-box {
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    button {
+        width: 100%;
+    }
+}
